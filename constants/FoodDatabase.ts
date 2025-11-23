@@ -1,0 +1,45 @@
+import { FoodItem } from '@/redux/slices/dietSlice';
+
+export const FOOD_DATABASE: { [category: string]: FoodItem[] } = {
+    Breakfast: [
+        { name: 'Oatmeal (1 cup)', calories: 150, carbs: 27, protein: 6, fat: 3 },
+        { name: 'Scrambled Eggs (2 eggs)', calories: 180, carbs: 2, protein: 13, fat: 14 },
+        { name: 'Whole Wheat Toast', calories: 80, carbs: 15, protein: 4, fat: 1 },
+        { name: 'Banana', calories: 105, carbs: 27, protein: 1, fat: 0 },
+        { name: 'Greek Yogurt (1 cup)', calories: 130, carbs: 11, protein: 14, fat: 0 },
+        { name: 'Avocado Toast', calories: 240, carbs: 20, protein: 6, fat: 16 },
+        { name: 'Smoothie Bowl', calories: 280, carbs: 45, protein: 8, fat: 7 },
+        { name: 'Pancakes (3 small)', calories: 220, carbs: 38, protein: 6, fat: 5 },
+        { name: 'Coffee (black)', calories: 2, carbs: 0, protein: 0, fat: 0 },
+    ],
+    Lunch: [
+        { name: 'Grilled Chicken Breast', calories: 165, carbs: 0, protein: 31, fat: 4 },
+        { name: 'Caesar Salad', calories: 180, carbs: 12, protein: 8, fat: 12 },
+        { name: 'Brown Rice (1 cup)', calories: 215, carbs: 45, protein: 5, fat: 2 },
+        { name: 'Tuna Sandwich', calories: 320, carbs: 35, protein: 25, fat: 8 },
+        { name: 'Vegetable Stir Fry', calories: 150, carbs: 20, protein: 6, fat: 5 },
+        { name: 'Quinoa Bowl', calories: 280, carbs: 40, protein: 10, fat: 8 },
+        { name: 'Turkey Wrap', calories: 300, carbs: 30, protein: 22, fat: 10 },
+        { name: 'Soup (1 bowl)', calories: 120, carbs: 18, protein: 6, fat: 3 },
+    ],
+    Dinner: [
+        { name: 'Grilled Salmon', calories: 280, carbs: 0, protein: 40, fat: 13 },
+        { name: 'Baked Chicken', calories: 220, carbs: 0, protein: 35, fat: 8 },
+        { name: 'Pasta with Marinara', calories: 350, carbs: 60, protein: 12, fat: 6 },
+        { name: 'Vegetable Curry', calories: 240, carbs: 35, protein: 8, fat: 9 },
+        { name: 'Steak (6 oz)', calories: 380, carbs: 0, protein: 42, fat: 22 },
+        { name: 'Roasted Vegetables', calories: 120, carbs: 20, protein: 4, fat: 3 },
+        { name: 'Sweet Potato', calories: 112, carbs: 26, protein: 2, fat: 0 },
+        { name: 'Green Beans', calories: 44, carbs: 10, protein: 2, fat: 0 },
+    ],
+    Snacks: [
+        { name: 'Apple', calories: 95, carbs: 25, protein: 0, fat: 0 },
+        { name: 'Almonds (1 oz)', calories: 164, carbs: 6, protein: 6, fat: 14 },
+        { name: 'Protein Bar', calories: 200, carbs: 22, protein: 20, fat: 7 },
+        { name: 'Carrot Sticks', calories: 35, carbs: 8, protein: 1, fat: 0 },
+        { name: 'Greek Yogurt', calories: 100, carbs: 8, protein: 10, fat: 0 },
+        { name: 'Cheese (1 oz)', calories: 114, carbs: 1, protein: 7, fat: 9 },
+        { name: 'Trail Mix (1/4 cup)', calories: 160, carbs: 15, protein: 5, fat: 10 },
+        { name: 'Hummus & Veggies', calories: 120, carbs: 14, protein: 5, fat: 5 },
+    ],
+};
